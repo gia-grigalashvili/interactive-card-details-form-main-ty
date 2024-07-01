@@ -1,7 +1,12 @@
 import "./App.css";
-import Inputes from "./components/Inputes";
+// import Inputes from "./components/Inputes";
+import Card from "./components/Card";
 function App() {
-  return <>{/* <Inputes></Inputes> */}</>;
+  return (
+    <>
+      <Card></Card>
+    </>
+  );
 }
 
 export default App;
